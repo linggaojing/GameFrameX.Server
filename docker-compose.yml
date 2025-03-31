@@ -12,7 +12,9 @@
     networks:
       - backend
   gameframex:
-    image: crpi-rgg694lcnk3c8wd8.cn-guangzhou.personal.cr.aliyuncs.com/gameframex-lgj/gameframex:1.0.0
+    #记得要改好版本号，或者直接用最新的版本latest
+    image: crpi-rgg694lcnk3c8wd8.cn-guangzhou.personal.cr.aliyuncs.com/gameframex-lgj/gameframex:latest
+#    image: gameframex.launcher:1.0.0.0
     container_name: gameframex
     ports:
       # APM 端口
